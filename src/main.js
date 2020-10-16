@@ -15,7 +15,7 @@ import {Box} from '@material-ui/core';
 class Main extends Component {
   render() {
     return (
-      <Box className="headerwrap" position="static">
+      <Box position="static">
         <HashRouter>
           <ul className="header">
             <li><NavLink exact to="/">Home</NavLink></li>
