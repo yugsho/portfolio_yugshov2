@@ -1,13 +1,96 @@
 body {
+  background-color: white;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+h1, h2, p, ul, li {
+  font-family: sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Navigation menu */
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  padding: 0;
+  text-align: center;
+  width:100%;
+}
+.header li a {
+  color: black;
+  font-weight:normal;
+  text-decoration: none;
+  padding: 3vw;
+  padding-bottom:0.6vh;
+  margin-bottom:2.4vh;
+  display: inline-block;
+  padding-left:1vw;
+  padding-right:1vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  font-size:1.6vw;
+}
+.content {
+  background-color: #FFF;
+  color: black;
+}
+
+.active {
+  border-bottom-style:solid;
+  border-bottom-width:thin;
+}
+
+/* Footer */
+.footer{
+  width:100vw;
+  position:absolute;
+  height:42vh;
+  bottom:0;
+}
+
+.footerimg_mobile{
+  display:none;
+}
+
+img{
+  width:100%;
+  height:100%;
+}
+
+/* Content on homepage */
+.homecontent{
+  padding:20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.7vw;
+}
+
+p{
+  font-size: 1.5vw;
+}
+
+/* Mobile only fontsizes */
+@media only screen and (max-width: 600px) {
+  h2 {
+    font-size: 6.8vw;
+    font-weight:bold;
+  }
+  P {
+    font-size: 3.6vw;
+  }
+  .header li a {
+    font-size: 3.2vw;
+  }
+  .footerimg{
+    display:none;
+  }
+  .footerimg_mobile{
+    display:block;
+  }
+  .footer{
+    height:36vh;
+  }
 }
