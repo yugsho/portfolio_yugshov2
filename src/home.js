@@ -8,8 +8,7 @@ class Home extends Component {
 <Box className="homecontainer">
       <Box className="homecontent">
         <h2 className="homeh2">Webdesigner & Front-end Developer</h2>
-
-        <p>I design websites and code them in a beautifull way</p>
+        <p>I design and code minimalistic looking websites</p>
       </Box>
 
       <Box className="footer">
