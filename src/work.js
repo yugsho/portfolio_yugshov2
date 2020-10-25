@@ -1,12 +1,14 @@
 import React, { Component } from "react";
+import {Box, Card} from '@material-ui/core';
 
 class Work extends Component {
   render() {
     return (
-      <div>
-        <h2>Work page</h2>
-        <p>Helaas had ik geen tijd meer om dit verder uit te werken :(</p>
-      </div>
+      <Box className="workcontent">
+        <Card className="workproject">Project 1</Card>
+        <Card className="workproject">Project 2</Card>
+        <Card className="workproject">Project 3</Card>
+      </Box>
     );
   }
 }
