@@ -87,7 +87,7 @@ p{
  width: 100vw;
 }
 
-/* Content on about */
+/* Content on aboutpage */
 .aboutcontent{
   padding:20px;
   text-align: center;
@@ -106,6 +106,17 @@ p{
   height:240px;
   width:170px;
   border-radius: 0.5vw;
+}
+
+/* Content on workpage */
+.workcontent{
+  display:flex;
+  justify-content: center;
+  align-content:space-between;
+}
+
+.workproject{
+  margin:8vw;
 }
 
 /* Mobile only fontsizes */
