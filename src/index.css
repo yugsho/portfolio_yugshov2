@@ -1,5 +1,6 @@
 body {
-  background-color: #151515;
+  /* background-color: #151515; */
+  background-color: #1A1A1A;
   margin: 0;
 }
 h1, h2, p, ul, li {
@@ -103,9 +104,9 @@ p{
 
 .aboutfoto{
   margin-top:5vh;
-  height:240px;
-  width:170px;
-  border-radius: 0.5vw;
+  height:220px;
+  width:220px;
+  border-radius: 50%;
 }
 
 /* Content on workpage */
@@ -116,7 +117,9 @@ p{
 }
 
 .workproject{
-  margin:8vw;
+  margin:7vw;
+  width:18vw;
+  height:40vh;
 }
 
 /* Mobile only fontsizes */
