@@ -3,7 +3,7 @@ body {
   background-color: #1A1A1A;
   margin: 0;
 }
-h1, h2, p, ul, li {
+html, h1, h2, p, ul, li {
   font-family: sans-serif;
   color:white;
 
@@ -39,7 +39,7 @@ ul.header {
   font-size:1.6vw;
 }
 .content {
-  background-color: #151515;
+  background-color: #1A1A1A;
   color: black;
 }
 
@@ -111,15 +111,57 @@ p{
 
 /* Content on workpage */
 .workcontent{
+  padding: 20px;
+}
+
+.cardwrap{
   display:flex;
   justify-content: center;
   align-content:space-between;
 }
-
 .workproject{
   margin:7vw;
   width:18vw;
   height:40vh;
+}
+
+/* ProgressBar */
+.progresswrap{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+
+.workskill{
+  overflow: hidden;
+  padding-left: 5vw;
+}
+
+.progress {
+	background-color: #d8d8d8;
+	border-radius: 20px;
+	position: relative;
+	margin: 15px 0;
+	height: 5vh;
+	width: 25vw;
+  float:left;
+}
+
+.progress-done {
+	background: linear-gradient(to left, #F2709C, #FF9472);
+	border-radius: 20px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
 }
 
 /* Mobile only fontsizes */

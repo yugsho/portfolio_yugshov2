@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import background from './pictures/background.jpg';
 import { Box } from '@material-ui/core';
 
 class Home extends Component {
