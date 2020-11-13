@@ -2,6 +2,7 @@ body {
   /* background-color: #151515; */
   background-color: #1A1A1A;
   margin: 0;
+  padding:0;
 }
 html, h1, h2, p, ul, li {
   font-family: sans-serif;
@@ -78,16 +79,6 @@ p{
   margin-bottom: 0;
 }
 
-.footer{
-  position: absolute;
- bottom: 0;
- color:white;
- text-align: center;
- height:2.5rem;
- text-align: center;
- width: 100vw;
-}
-
 /* Content on aboutpage */
 .aboutcontent{
   padding:20px;
@@ -112,19 +103,13 @@ p{
 /* Content on workpage */
 .workcontent{
   padding: 20px;
+  position: relative;
 }
 
 .cardwrap{
-  display:flex;
-  flex-direction: row;
-   flex-wrap:wrap;
-  justify-content: center;
-  align-content:space-between;
-
+  height:100vh;
 }
 .workproject{
-  margin:7vw;
-  width:34vw;
   height:40vh;
 }
 
@@ -133,7 +118,7 @@ p{
 }
 
 .cardpfont{
-  padding:20px;
+  padding:10px;
 }
 
 /* ProgressBar */
@@ -144,6 +129,9 @@ p{
   flex-direction:column;
   margin-left: 30vw;
   width: 68vw;
+  height:86vh;
+  justify-content: center;
+  margin-bottom:7vh;
 }
 
 
@@ -175,6 +163,16 @@ p{
 	transition: 1s ease 0.3s;
 }
 
+/* Footer */
+.footer{
+  position: absolute;
+ bottom: 0;
+ color:white;
+ margin-left:0.4rem;
+ font-size:1.2vw;
+ height:1.6rem;
+}
+
 /* Mobile only fontsizes */
 @media only screen and (max-width: 600px) {
   h2 {
@@ -188,12 +186,12 @@ p{
     font-size: 3.2vw;
   }
   /* Mobile only workpage */
-   .workproject{
-     width:90vw;
-     height:26vh;
-   }
+  .workproject{
+    height:26vh;
+    position: relative;
+  }
    .cardh2font{
-     font-size: 5.4vw;
+     font-size: 5.2vw;
    }
 
    .cardpfont{
@@ -207,5 +205,14 @@ p{
    .progresswrap{
      margin-left: 12vw;
      width: 80vw;
+   }
+   /* Mobile only footer */
+   .footer{
+    font-size:2.2vw;
+    height:0.8rem;
+    margin-left:0.2rem;
+   }
+   .cardwrap{
+     height:auto;
    }
 }
