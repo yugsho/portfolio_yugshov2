@@ -95,8 +95,8 @@ p{
 
 .aboutfoto{
   margin-top:5vh;
-  height:220px;
-  width:220px;
+  height:20vw;
+  width:20vw;
   border-radius: 50%;
 }
 
@@ -118,7 +118,7 @@ p{
 }
 
 .cardpfont{
-  padding:10px;
+  padding:20px;
 }
 
 /* ProgressBar */
@@ -214,5 +214,10 @@ p{
    }
    .cardwrap{
      height:auto;
+   }
+   /* Mobile only picture */
+   .aboutfoto{
+     width:50vw;
+     height:50vw;
    }
 }
