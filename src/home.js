@@ -11,7 +11,7 @@ class Home extends Component {
       </Box>
 
       <Box className="footer">
-      <p> > </p>
+      <a> C 2020, Made in React </a>
       </Box>
 
 </Box>
