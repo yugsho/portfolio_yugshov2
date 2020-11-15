@@ -7,15 +7,29 @@ class Work extends Component {
     return (
 
       <Box className="workcontent">
-      <Box className="progresswrap">
+      <Grid container direction="row" justify="center" alignItems="center" className="cardwrap">
+      <Grid item xs={12} sm={12}>
       <Box><Progress done="50"/> <p className="workskill">React</p></Box>
+      </Grid>
+      <Grid item xs={12} sm={12}>
       <Box><Progress done="65"/> <p className="workskill">Javascript</p></Box>
+      </Grid>
+      <Grid item xs={12} sm={12}>
       <Box><Progress done="25"/> <p className="workskill">Ionic</p></Box>
+      </Grid>
+      <Grid item xs={12} sm={12}>
       <Box><Progress done="35"/> <p className="workskill">Material-ui</p></Box>
+      </Grid>
+      <Grid item xs={12} sm={12}>
       <Box><Progress done="45"/> <p className="workskill">Firebase</p></Box>
+      </Grid>
+      <Grid item xs={12} sm={12}>
       <Box><Progress done="80"/> <p className="workskill">HTML</p></Box>
+      </Grid>
+      <Grid item xs={12} sm={12}>
       <Box><Progress done="75"/> <p className="workskill">CSS</p></Box>
-      </Box>
+      </Grid>
+      </Grid>
 
       <Grid container direction="row" justify="space-evenly" justify="center" alignItems="flex-start" alignItems="center" spacing={4} className="cardwrap">
       <Grid item xs={12} sm={4}>

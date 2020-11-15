@@ -79,7 +79,7 @@ p{
   margin-bottom: 0;
 }
 
- /* Content on aboutpage */
+/* Content on aboutpage */
 .aboutcontent{
   padding:20px;
   text-align: center;
@@ -95,8 +95,8 @@ p{
 
 .aboutfoto{
   margin-top:5vh;
-  height:20vw;
-  width:20vw;
+  height:220px;
+  width:220px;
   border-radius: 50%;
 }
 
@@ -118,7 +118,7 @@ p{
 }
 
 .cardpfont{
-  padding:20px;
+  padding:10px;
 }
 
 /* ProgressBar */
@@ -129,9 +129,9 @@ p{
   flex-direction:column;
   margin-left: 30vw;
   width: 68vw;
-  height:80vh;
+  height:86vh;
   justify-content: center;
-  margin-bottom:13vh;
+  margin-bottom:7vh;
 }
 
 
@@ -164,19 +164,14 @@ p{
 }
 
 /* Footer */
-/* .footer{
+.footer{
   position: absolute;
  bottom: 0;
  color:white;
+ margin-left:0.4rem;
  font-size:1.2vw;
- height:2.5rem;
- margin: auto;
+ height:1.6rem;
 }
-
-.footertext{
-  text-align: center;
-  margin: auto;
-} */
 
 /* Mobile only fontsizes */
 @media only screen and (max-width: 600px) {
@@ -212,18 +207,12 @@ p{
      width: 80vw;
    }
    /* Mobile only footer */
-   /* .footer{
+   .footer{
     font-size:2.2vw;
-    height:1.4rem;
-    text-align: center;
-    margin-left: auto;
+    height:0.8rem;
+    margin-left:0.2rem;
    }
    .cardwrap{
      height:auto;
-   } */
-   /* Mobile only picture */
-   .aboutfoto{
-     width:50vw;
-     height:50vw;
    }
 }
