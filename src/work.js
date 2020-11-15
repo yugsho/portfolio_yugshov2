@@ -17,7 +17,7 @@ class Work extends Component {
       <Box><Progress done="75"/> <p className="workskill">CSS</p></Box>
       </Box>
 
-      <Grid container direction="row" justify="space-evenly" alignItems="flex-start" spacing={4} className="cardwrap">
+      <Grid container direction="row" justify="space-evenly" justify="center" alignItems="flex-start" alignItems="center" spacing={4} className="cardwrap">
       <Grid item xs={12} sm={4}>
       <Card style={{backgroundColor: "#404040"}} className="workproject">
        <h2 className="cardh2font">React</h2>
@@ -52,10 +52,6 @@ class Work extends Component {
        </Card>
        </Grid>
       </Grid>
-
-      <Box className="footer">
-      <a> C 2020, Made in React </a>
-      </Box>
 
       </Box>
 
