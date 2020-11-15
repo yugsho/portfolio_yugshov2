@@ -10,10 +10,6 @@ class Home extends Component {
         <p>I design and code minimalistic looking websites</p>
       </Box>
 
-      <Box className="footer">
-      <a> C 2020, Made in React </a>
-      </Box>
-
 </Box>
     );
   }

@@ -5,7 +5,6 @@ import me from './pictures/me.jpg';
 class About extends Component {
   render() {
     return (
-      <Box>
       <Box className="aboutcontent">
         <h2>Hi, I'm Emilio. Nice to meet you.</h2>
 
@@ -22,10 +21,6 @@ class About extends Component {
 
 
 
-      </Box>
-      <Box className="footer">
-      <a> C 2020, Made in React </a>
-      </Box>
       </Box>
     );
   }
