@@ -95,8 +95,8 @@ p{
 
 .aboutfoto{
   margin-top:5vh;
-  height:220px;
-  width:220px;
+  height:20vw;
+  width:20vw;
   border-radius: 50%;
 }
 
@@ -104,14 +104,12 @@ p{
 .workcontent{
   padding: 20px;
 }
-
 .cardwrap{
   height:100vh;
 }
 .workproject{
   height:40vh;
 }
-
 .cardh2font{
   text-align: center;
 }
@@ -182,7 +180,6 @@ p{
    .cardh2font{
      font-size: 5.2vw;
    }
-
    .cardpfont{
      font-size:3vw;
    }
@@ -190,7 +187,10 @@ p{
    	height: 3.8vh;
    	width:100%;
    }
-
+   .aboutfoto{
+     height:45vw;
+     width:45vw;
+   }
    /* Mobile only footer */
    .footer{
      font-size: 3.2vw!important;
