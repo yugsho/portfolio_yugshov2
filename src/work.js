@@ -7,15 +7,40 @@ class Work extends Component {
     return (
 
       <Box className="workcontent">
-      <Box className="progresswrap">
-      <Box><Progress done="50"/> <p className="workskill">React</p></Box>
-      <Box><Progress done="65"/> <p className="workskill">Javascript</p></Box>
-      <Box><Progress done="25"/> <p className="workskill">Ionic</p></Box>
-      <Box><Progress done="35"/> <p className="workskill">Material-ui</p></Box>
-      <Box><Progress done="45"/> <p className="workskill">Firebase</p></Box>
-      <Box><Progress done="80"/> <p className="workskill">HTML</p></Box>
-      <Box><Progress done="75"/> <p className="workskill">CSS</p></Box>
-      </Box>
+
+      <Grid container item xs={12} sm={12} style={{height:"78vh", marginBottom:"12vh"}} spacing={0}>
+
+      <Grid container item xs={12} sm={12} justify="center" alignItems="center">
+      <Grid item xs={5} sm={3}><Progress done="50"/></Grid> <Grid item xs={4} sm={2}><p className="workskill">React</p></Grid>
+      </Grid>
+
+      <Grid container item xs={12} sm={12} justify="center" alignItems="center">
+      <Grid item xs={5} sm={3}><Progress done="65"/></Grid> <Grid item xs={4} sm={2}><p className="workskill">Javascript</p></Grid>
+      </Grid>
+
+      <Grid container item xs={12} sm={12} justify="center" alignItems="center">
+      <Grid item xs={5} sm={3}><Progress done="25"/></Grid> <Grid item xs={4} sm={2}><p className="workskill">Ionic</p></Grid>
+      </Grid>
+
+      <Grid container item xs={12} sm={12} justify="center" alignItems="center">
+      <Grid item xs={5} sm={3}><Progress done="35"/></Grid> <Grid item xs={4} sm={2}><p className="workskill">Material-ui</p></Grid>
+      </Grid>
+
+      <Grid container item xs={12} sm={12} justify="center" alignItems="center">
+      <Grid item xs={5} sm={3}><Progress done="45"/></Grid> <Grid item xs={4} sm={2}><p className="workskill">Firebase</p></Grid>
+      </Grid>
+
+      <Grid container item xs={12} sm={12} justify="center" alignItems="center">
+      <Grid item xs={5} sm={3}><Progress done="80"/></Grid> <Grid item xs={4} sm={2}><p className="workskill">HTML</p></Grid>
+      </Grid>
+
+      <Grid container item xs={12} sm={12} justify="center" alignItems="center">
+      <Grid item xs={5} sm={3}><Progress done="75"/></Grid> <Grid item xs={4} sm={2}><p className="workskill">CSS</p></Grid>
+      </Grid>
+
+      </Grid>
+
+      <Grid container className="footer" item xs={12} justify="center" style={{position:"absolute", bottom:"0", color:"white", height:"2rem", fontSize:"1.4vw", width:"98%"}}> <a>\/</a> </Grid>
 
       <Grid container direction="row" justify="space-evenly" justify="center" alignItems="flex-start" alignItems="center" spacing={4} className="cardwrap">
       <Grid item xs={12} sm={4}>

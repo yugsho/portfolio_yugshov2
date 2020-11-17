@@ -79,7 +79,7 @@ p{
   margin-bottom: 0;
 }
 
- /* Content on aboutpage */
+/* Content on aboutpage */
 .aboutcontent{
   padding:20px;
   text-align: center;
@@ -103,22 +103,19 @@ p{
 /* Content on workpage */
 .workcontent{
   padding: 20px;
-  position: relative;
 }
-
 .cardwrap{
   height:100vh;
 }
 .workproject{
   height:40vh;
 }
-
 .cardh2font{
   text-align: center;
 }
 
 .cardpfont{
-  padding:20px;
+  padding:10px;
 }
 
 /* ProgressBar */
@@ -129,9 +126,9 @@ p{
   flex-direction:column;
   margin-left: 30vw;
   width: 68vw;
-  height:80vh;
+  height:86vh;
   justify-content: center;
-  margin-bottom:13vh;
+  margin-bottom:7vh;
 }
 
 
@@ -163,21 +160,6 @@ p{
 	transition: 1s ease 0.3s;
 }
 
-/* Footer */
-/* .footer{
-  position: absolute;
- bottom: 0;
- color:white;
- font-size:1.2vw;
- height:2.5rem;
- margin: auto;
-}
-
-.footertext{
-  text-align: center;
-  margin: auto;
-} */
-
 /* Mobile only fontsizes */
 @media only screen and (max-width: 600px) {
   h2 {
@@ -198,32 +180,19 @@ p{
    .cardh2font{
      font-size: 5.2vw;
    }
-
    .cardpfont{
      font-size:3vw;
    }
    .progress {
    	height: 3.8vh;
-   	width: 50vw;
-     float:left;
+   	width:100%;
    }
-   .progresswrap{
-     margin-left: 12vw;
-     width: 80vw;
+   .aboutfoto{
+     height:45vw;
+     width:45vw;
    }
    /* Mobile only footer */
-   /* .footer{
-    font-size:2.2vw;
-    height:1.4rem;
-    text-align: center;
-    margin-left: auto;
-   }
-   .cardwrap{
-     height:auto;
-   } */
-   /* Mobile only picture */
-   .aboutfoto{
-     width:50vw;
-     height:50vw;
+   .footer{
+     font-size: 3.2vw!important;
    }
 }
